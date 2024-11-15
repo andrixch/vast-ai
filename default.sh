@@ -28,9 +28,7 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors"
     "https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V6.0_FP16.safetensors"
     "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0_fp16.safetensors"
-    #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+    "https://civitai.com/api/download/models/160989?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 )
 
 UNET_MODELS=(
@@ -39,6 +37,8 @@ UNET_MODELS=(
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
+    "https://civitai.com/api/download/models/168193?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/141385"
 )
 
 VAE_MODELS=(
