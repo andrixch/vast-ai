@@ -34,6 +34,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V6.0_FP16.safetensors"
     "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0_fp16.safetensors"
     "https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V65.safetensors"
+    "https://civitai.com/api/download/models/160989?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
@@ -44,6 +45,9 @@ LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
     "https://civitai.com/api/download/models/168193?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/436219?type=Model&format=SafeTensor"
+    
 )
 
 VAE_MODELS=(
