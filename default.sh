@@ -29,7 +29,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V6.0_FP16.safetensors"
     "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0_fp16.safetensors"
     #"https://civitai.com/api/download/models/160989?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    "https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V65.safetensors"
+    #"https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V65.safetensors"
 )
 
 UNET_MODELS=(
