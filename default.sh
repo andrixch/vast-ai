@@ -28,6 +28,7 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors"
     "https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V6.0_FP16.safetensors"
     "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0_fp16.safetensors"
+    "https://huggingface.co/LyliaEngine/Pony_Diffusion_V6_XL/resolve/main/ponyDiffusionV6XL_v6StartWithThisOne.safetensors""
     #"https://civitai.com/api/download/models/160989?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #"https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V65.safetensors"
 )
@@ -38,8 +39,9 @@ UNET_MODELS=(
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
-    "https://civitai.com/api/download/models/168193?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/141385"
+    #"https://civitai.com/api/download/models/168193?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/141385"
+    "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
