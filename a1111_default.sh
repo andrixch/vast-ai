@@ -44,8 +44,8 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
-    "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
-    "https://civitai.com/api/download/models/168193?type=Model&format=SafeTensor"
+    #"https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
+    #"https://civitai.com/api/download/models/168193?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/436219?type=Model&format=SafeTensor"
     
