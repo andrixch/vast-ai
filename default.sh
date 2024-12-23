@@ -26,10 +26,10 @@ NODES=(
 
 CHECKPOINT_MODELS=(
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-    "https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors"
-    "https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V6.0_FP16.safetensors"
+    #"https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors"
+    #"https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V6.0_FP16.safetensors"
     #"https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0_fp16.safetensors"
-    #"https://huggingface.co/LyliaEngine/Pony_Diffusion_V6_XL/resolve/main/ponyDiffusionV6XL_v6StartWithThisOne.safetensors"
+    "https://huggingface.co/LyliaEngine/Pony_Diffusion_V6_XL/resolve/main/ponyDiffusionV6XL_v6StartWithThisOne.safetensors"
     #"https://civitai.com/api/download/models/160989?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #"https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V65.safetensors"
 )
@@ -42,14 +42,14 @@ LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     #"https://civitai.com/api/download/models/168193?type=Model&format=SafeTensor"
     #"https://civitai.com/api/download/models/141385"
-    #"https://civitai.com/api/download/models/436219?type=Model&format=SafeTensor"
-    #"https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/436219?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
     #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
+    #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
 )
 
 ESRGAN_MODELS=(
@@ -69,7 +69,7 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_mlsd-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_normal-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_scribble-fp16.safetensors"
+    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_scribble-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_color-fp16.safetensors"
@@ -77,7 +77,7 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_keypose-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
+    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
 )
 
